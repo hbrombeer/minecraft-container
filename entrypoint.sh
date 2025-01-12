@@ -4,7 +4,7 @@ if [ -z "$REGION" ]; then
   REGION="Unknown Region"
 fi
 
-MOTD="\u00a76Bunny Magic Containers - $REGION"
+MOTD="§6Bunny Magic Containers - $REGION"
 
 sed -i '36s|^motd=.*|motd='"$MOTD"'|' /minecraft/server.properties
 
